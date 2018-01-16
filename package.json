@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@zestia/eslint-config",
   "version": "1.0.0",
   "description": "ESLint configs",
   "main": "index.js",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/zestia/eslint-config/issues"
   },
-  "homepage": "https://github.com/zestia/eslint-config"
+  "homepage": "https://github.com/zestia/eslint-config",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-plugin-ember": ">= 5"
+  }
 }
