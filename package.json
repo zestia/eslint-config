@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zestia/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Zestia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zestia/eslint-config/issues"
+  },
+  "homepage": "https://github.com/zestia/eslint-config"
+}
