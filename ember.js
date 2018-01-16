@@ -1,8 +1,5 @@
 module.exports = {
   root: true,
-  globals: {
-    'Symbol': true
-  },
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module'
