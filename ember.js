@@ -15,13 +15,15 @@ module.exports = {
     'browser': true
   },
   rules: {
+    // Zestia Ember-Specific
+
     'indent': ['error', 2, {
       SwitchCase: 1,
       ignoredNodes: [
         // Friendlier Mixin indentation
         "CallExpression[callee.property.name=/extend|create/] > ObjectExpression"
       ]
-    },
+    }],
 
     'no-restricted-imports': ['error', {
       paths: [{
@@ -33,6 +35,8 @@ module.exports = {
         message: 'Please use ember-improved-cp instead'
       }]
     }],
+
+    // Ember Plugin
 
     'ember/alias-model-in-controller': 'off',
     'ember/closure-actions': 'error',
@@ -103,6 +107,9 @@ module.exports = {
       ]
     }]
   },
+
+  // Standard Ember-app overrides
+
   overrides: [{ // node files
     files: [
       'testem.js',
