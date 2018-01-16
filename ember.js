@@ -18,6 +18,14 @@ module.exports = {
     'browser': true
   },
   rules: {
+    'indent': ['error', 2, {
+      SwitchCase: 1,
+      ignoredNodes: [
+        // Friendlier Mixin indentation
+        "CallExpression[callee.property.name=/extend|create/] > ObjectExpression"
+      ]
+    },
+
     'no-restricted-imports': ['error', {
       paths: [{
         name: '@ember/object/computed',

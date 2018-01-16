@@ -171,12 +171,7 @@ module.exports = {
     'id-blacklist': ['error', 'callback'],
     'id-length': 'off',
     'id-match': 'off',
-    'indent': ['error', 2, {
-      SwitchCase: 1,
-      ignoredNodes: [
-        "CallExpression[callee.property.name=/extend|create/] > ObjectExpression"
-      ]
-    }],
+    'indent': ['error', 2],
     'jsx-quotes': 'off',
     'key-spacing': ['error', {
       beforeColon: false,
