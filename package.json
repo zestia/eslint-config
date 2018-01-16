@@ -1,6 +1,6 @@
 {
   "name": "@zestia/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint configs",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/zestia/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-plugin-ember": ">= 5"
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint-plugin-ember": "5.0.3"
   }
 }
