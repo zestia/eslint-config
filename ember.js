@@ -133,7 +133,7 @@ module.exports = {
     globals: {
       waitForAnimation: true,
       upload: true,
-      $root: true
+      rootElement: true
     },
     rules: {
       'max-len': ['error', {
