@@ -29,6 +29,8 @@ module.exports = {
         name: '@ember/object',
         importNames: ['computed'],
         message: 'Please use ember-improved-cp instead'
+      }, {
+        name: 'jquery'
       }]
     }],
     'ember/alias-model-in-controller': 'off',
@@ -43,7 +45,7 @@ module.exports = {
     'ember/no-duplicate-dependent-keys': 'error',
     'ember/no-empty-attrs': 'off',
     'ember/no-function-prototype-extensions': 'error',
-    'ember/no-global-jquery': 'off',
+    'ember/no-global-jquery': 'error',
     'ember/no-observers': 'error',
     'ember/no-old-shims': 'error',
     'ember/no-on-calls-in-components': 'error',
