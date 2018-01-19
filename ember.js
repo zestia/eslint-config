@@ -15,16 +15,12 @@ module.exports = {
     'browser': true
   },
   rules: {
-    // Zestia Ember-Specific
-
     'indent': ['error', 2, {
       SwitchCase: 1,
       ignoredNodes: [
-        // Friendlier Mixin indentation
         "CallExpression[callee.property.name=/extend|create/] > ObjectExpression"
       ]
     }],
-
     'no-restricted-imports': ['error', {
       paths: [{
         name: '@ember/object/computed',
@@ -33,13 +29,8 @@ module.exports = {
         name: '@ember/object',
         importNames: ['computed'],
         message: 'Please use ember-improved-cp instead'
-      }, {
-        name: 'jquery'
       }]
     }],
-
-    // Ember Plugin
-
     'ember/alias-model-in-controller': 'off',
     'ember/closure-actions': 'error',
     'ember/jquery-ember-run': 'error',
@@ -52,7 +43,7 @@ module.exports = {
     'ember/no-duplicate-dependent-keys': 'error',
     'ember/no-empty-attrs': 'off',
     'ember/no-function-prototype-extensions': 'error',
-    'ember/no-global-jquery': 'error',
+    'ember/no-global-jquery': 'off',
     'ember/no-observers': 'error',
     'ember/no-old-shims': 'error',
     'ember/no-on-calls-in-components': 'error',
@@ -109,40 +100,26 @@ module.exports = {
       ]
     }]
   },
-
-  // Standard Ember-app overrides
-
-  overrides: [{ // node files
-    files: [
-      'testem.js',
-      'ember-cli-build.js',
-      'config/**/*.js'
-    ],
-    parserOptions: {
-      sourceType: 'script',
-      ecmaVersion: 2015
-    },
-    env: {
-      browser: false,
-      node: true
+  overrides: [
+    // test files
+    {
+      files: ['tests/**/*.js'],
+      excludedFiles: ['tests/dummy/**/*.js'],
+      env: {
+        embertest: true
+      },
+      globals: {
+        waitForAnimation: true,
+        upload: true,
+        rootElement: true
+      },
+      rules: {
+        'max-len': ['error', {
+          code: 100,
+          tabWidth: 2,
+          ignoreComments: true
+        }]
+      }
     }
-  }, { // test files
-    files: ['tests/**/*.js'],
-    excludedFiles: ['tests/dummy/**/*.js'],
-    env: {
-      embertest: true
-    },
-    globals: {
-      waitForAnimation: true,
-      upload: true,
-      rootElement: true
-    },
-    rules: {
-      'max-len': ['error', {
-        code: 100,
-        tabWidth: 2,
-        ignoreComments: true
-      }]
-    }
-  }]
+  ]
 };
