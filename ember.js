@@ -15,12 +15,6 @@ module.exports = {
     'browser': true
   },
   rules: {
-    'indent': ['error', 2, {
-      SwitchCase: 1,
-      ignoredNodes: [
-        "CallExpression[callee.property.name=/extend|create/] > ObjectExpression"
-      ]
-    }],
     'no-restricted-imports': ['error', {
       paths: [{
         name: '@ember/object/computed',
@@ -114,13 +108,6 @@ module.exports = {
         waitForAnimation: true,
         upload: true,
         rootElement: true
-      },
-      rules: {
-        'max-len': ['error', {
-          code: 100,
-          tabWidth: 2,
-          ignoreComments: true
-        }]
       }
     }
   ]
