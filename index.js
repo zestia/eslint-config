@@ -171,7 +171,9 @@ module.exports = {
     'id-blacklist': ['error', 'callback'],
     'id-length': 'off',
     'id-match': 'off',
-    'indent': ['error', 2],
+    'indent': ['error', 2, {
+      SwitchCase: 1
+    }],
     'jsx-quotes': 'off',
     'key-spacing': ['error', {
       beforeColon: false,
