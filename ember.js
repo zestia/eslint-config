@@ -106,6 +106,7 @@ module.exports = {
       },
       globals: {
         waitForAnimation: true,
+        waitForTime: true,
         upload: true,
         rootElement: true
       }
