@@ -103,12 +103,6 @@ module.exports = {
       excludedFiles: ['tests/dummy/**/*.js'],
       env: {
         embertest: true
-      },
-      globals: {
-        waitForAnimation: true,
-        waitForTime: true,
-        upload: true,
-        rootElement: true
       }
     }
   ]
