@@ -12,7 +12,7 @@ module.exports = {
     '@zestia/eslint-config'
   ],
   env: {
-    'browser': true
+    browser: true
   },
   rules: {
     'no-restricted-imports': ['error', {
@@ -32,7 +32,6 @@ module.exports = {
     'ember/jquery-ember-run': 'error',
     'ember/new-module-imports': 'error',
     'ember/named-functions-in-promises': 'off',
-    'ember/new-module-imports': 'error',
     'ember/no-attrs-in-components': 'error',
     'ember/no-attrs-snapshot': 'error',
     'ember/no-capital-letters-in-routes': 'error',
