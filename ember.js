@@ -49,50 +49,20 @@ module.exports = {
     'ember/use-brace-expansion': 'error',
     'ember/use-ember-get-and-set': 'off',
     'ember/avoid-leaking-state-in-ember-objects': 'error',
+    'ember/order-in-models': ['error'],
+    'ember/order-in-controllers': ['error'],
+    'ember/order-in-routes': ['error'],
+
+    // Temporary lenient rules, until we migrate to ember-eslint-plugin's defaults
+    // 'ember/order-in-components': ['error']
     'ember/order-in-components': ['error', {
       order: [
-        'property',
-        'service',
+        ['property', 'service'],
         'single-line-function',
         'multi-line-function',
         'observer',
         'lifecycle-hook',
-        'method',
-        'actions'
-      ]
-    }],
-    'ember/order-in-models': ['error', {
-      order: [
-        'attribute',
-        'relationship',
-        'single-line-function',
-        'multi-line-function'
-      ]
-    }],
-    'ember/order-in-routes': ['error', {
-      order: [
-        'inherited-property',
-        'property',
-        'service',
-        'single-line-function',
-        'multi-line-function',
-        'model',
-        'lifecycle-hook',
-        'method',
-        'actions'
-      ]
-    }],
-    'ember/order-in-controllers': ['error', {
-      order: [
-        'query-params',
-        'inherited-property',
-        'property',
-        'service',
-        'single-line-function',
-        'multi-line-function',
-        'observer',
-        'method',
-        'actions'
+        ['method', 'actions']
       ]
     }]
   },
