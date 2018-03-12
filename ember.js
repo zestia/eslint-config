@@ -51,19 +51,7 @@ module.exports = {
     'ember/order-in-models': ['error'],
     'ember/order-in-controllers': ['error'],
     'ember/order-in-routes': ['error'],
-
-    // Temporary lenient rules, until we migrate to ember-eslint-plugin's defaults
-    // 'ember/order-in-components': ['error']
-    'ember/order-in-components': ['error', {
-      order: [
-        ['property', 'service'],
-        'single-line-function',
-        'multi-line-function',
-        'observer',
-        'lifecycle-hook',
-        ['method', 'actions']
-      ]
-    }]
+    'ember/order-in-components': ['error']
   },
   overrides: [
     // test files
