@@ -39,6 +39,7 @@ module.exports = {
     'ember/no-empty-attrs': 'off',
     'ember/no-function-prototype-extensions': 'error',
     'ember/no-global-jquery': 'error',
+    'ember/no-jquery': 'error',
     'ember/no-observers': 'error',
     'ember/no-old-shims': 'error',
     'ember/no-on-calls-in-components': 'error',
@@ -48,10 +49,10 @@ module.exports = {
     'ember/use-brace-expansion': 'error',
     'ember/use-ember-get-and-set': 'off',
     'ember/avoid-leaking-state-in-ember-objects': 'error',
-    'ember/order-in-models': ['error'],
-    'ember/order-in-controllers': ['error'],
-    'ember/order-in-routes': ['error'],
-    'ember/order-in-components': ['error']
+    'ember/order-in-models': 'error',
+    'ember/order-in-controllers': 'error',
+    'ember/order-in-routes': 'error',
+    'ember/order-in-components': 'error'
   },
   overrides: [
     // test files
