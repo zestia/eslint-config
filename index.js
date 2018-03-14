@@ -27,9 +27,7 @@ module.exports = {
     'no-func-assign': 'error',
     'no-inner-declarations': 'error',
     'no-invalid-regexp': 'error',
-    'no-irregular-whitespace': ['error', {
-      skipStrings: true
-    }],
+    'no-irregular-whitespace': ['error'],
     'no-obj-calls': 'error',
     'no-prototype-builtins': 'off',
     'no-regex-spaces': 'error',
