@@ -41,7 +41,7 @@ module.exports = {
     'ember/no-observers': 'error',
     'ember/no-old-shims': 'error',
     'ember/no-on-calls-in-components': 'error',
-    'ember/use-ember-get-and-set': 'off'
+    'ember/use-ember-get-and-set': 'off',
 
     // Possible Errors
 
