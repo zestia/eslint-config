@@ -253,12 +253,12 @@ module.exports = {
     'prefer-spread': 'error',
     'padding-line-between-statements': ['error', {
       blankLine: 'always',
-      prev: 'block-like',
+      prev: 'multiline-block-like',
       next: '*'
     }, {
       blankLine: 'always',
       prev: '*',
-      next: 'block-like'
+      next: 'multiline-block-like'
     }],
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single', {
