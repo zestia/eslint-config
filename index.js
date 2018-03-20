@@ -5,7 +5,7 @@ module.exports = {
   rules: {
     // Possible Errors
 
-    'for-direction': ['error'],
+    'for-direction': 'error',
     'no-cond-assign': ['error', 'except-parens'],
     'no-console': 'error',
     'no-constant-condition': ['error', {
@@ -27,7 +27,7 @@ module.exports = {
     'no-func-assign': 'error',
     'no-inner-declarations': 'error',
     'no-invalid-regexp': 'error',
-    'no-irregular-whitespace': ['error'],
+    'no-irregular-whitespace': 'error',
     'no-obj-calls': 'error',
     'no-prototype-builtins': 'off',
     'no-regex-spaces': 'error',
@@ -191,6 +191,7 @@ module.exports = {
     'line-comment-position': 'off',
     'linebreak-style': ['error', 'unix'],
     'lines-around-comment': 'off',
+    'lines-between-class-members': ['error', 'always'],
     'max-depth': ['error', 2],
     'max-len': ['error', {
       code: 100,
@@ -245,9 +246,20 @@ module.exports = {
     'one-var': 'off',
     'operator-assignment': 'error',
     'operator-linebreak': ['error', 'after'],
-    'padded-blocks': 'off',
+    'padded-blocks': ['error', {
+      blocks: 'never',
+      switches: 'never'
+    }],
     'prefer-spread': 'error',
-    'padding-line-between-statements': ['off'],
+    'padding-line-between-statements': ['error', {
+      blankLine: 'always',
+      prev: 'block-like',
+      next: '*'
+    }, {
+      blankLine: 'always',
+      prev: '*',
+      next: 'block-like'
+    }],
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single', {
       avoidEscape: true,
