@@ -5,7 +5,8 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'ember'
+    'ember',
+    'hbs'
   ],
   extends: [
     'plugin:ember/recommended',
@@ -15,6 +16,8 @@ module.exports = {
     browser: true
   },
   rules: {
+    'hbs/check-hbs-template-literals': 'error',
+
     'no-restricted-imports': ['error', {
       paths: [{
         name: '@ember/object/computed',
