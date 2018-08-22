@@ -68,15 +68,5 @@ module.exports = {
     'ember/order-in-models': 'error',
     'ember/order-in-routes': 'error',
     'ember/use-brace-expansion': 'error'
-  },
-  overrides: [
-    // test files
-    {
-      files: ['tests/**/*.js'],
-      excludedFiles: ['tests/dummy/**/*.js'],
-      env: {
-        embertest: true
-      }
-    }
-  ]
+  }
 };
