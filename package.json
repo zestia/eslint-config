@@ -26,6 +26,6 @@
     "eslint-plugin-node": "^8.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=4.19.1"
+    "eslint": ">=5.9.0"
   }
 }
