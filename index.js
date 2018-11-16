@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['prettier'],
-  extends: ['eslint:recommended', 'plugin:prettier/recommended', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   rules: {
     'accessor-pairs': 'error',
     'block-scoped-var': 'error',
