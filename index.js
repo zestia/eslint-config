@@ -118,7 +118,6 @@ module.exports = {
       { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
       { blankLine: 'always', prev: '*', next: 'multiline-block-like' }
     ],
-    'prettier/prettier': 'off',
     'prefer-const': 'error',
     'prefer-object-spread': 'error',
     'prefer-promise-reject-errors': 'error',
