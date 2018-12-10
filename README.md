@@ -29,8 +29,9 @@ module.exports = {
 
 These configs include:
 
-* `eslint:recommended` for a set of sensible lint rules around best practices and catching errors
-* `plugin:prettier/recommended` for a set of sensible lint rules around pretty code
+* `eslint:recommended` for minimal recommended defaults
+* `eslint-config-standard` for a set of community lint rules around best practices and catching errors
+* `plugin:prettier/recommended` for a set of community lint rules around pretty code
 * `eslint-config-prettier` for turning off eslint pretty-code rules that could conflict with prettier
 * `eslint-plugin-ember` for ember-specific recommended lint rules
 * `eslint-plugin-hbs` for linting handlebars in tagged templates within javascript files
