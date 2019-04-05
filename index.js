@@ -10,7 +10,7 @@ module.exports = {
     'global-require': 'error',
     'id-blacklist': ['error', 'callback'],
     'linebreak-style': ['error', 'unix'],
-    'lines-between-class-members': ['error', 'always'],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-depth': ['error', 2],
     // 'max-len': ['error', { code: 100, tabWidth: 2, ignoreComments: true }],
     'max-lines': ['error', 1000],
