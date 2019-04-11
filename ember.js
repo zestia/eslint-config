@@ -10,8 +10,8 @@ module.exports = {
     'hbs'
   ],
   extends: [
-    'plugin:ember/recommended',
-    '@zestia/eslint-config'
+    '@zestia/eslint-config',
+    'plugin:ember/recommended'
   ],
   env: {
     browser: true
