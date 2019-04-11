@@ -42,6 +42,7 @@ module.exports = {
     'no-void': 'error',
     'no-warning-comments': 'warn',
     'object-shorthand': ['error', 'always'],
+    'one-var': ['error', 'never'],
     'operator-assignment': 'error',
     'padding-line-between-statements': [
       'error',
