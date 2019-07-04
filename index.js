@@ -8,7 +8,6 @@ module.exports = {
     'consistent-this': ['error', '_this'],
     'dot-notation': 'error',
     'global-require': 'error',
-    'id-blacklist': ['error', 'callback'],
     'linebreak-style': ['error', 'unix'],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-depth': ['error', 2],
