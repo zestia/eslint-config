@@ -1,5 +1,3 @@
-const plugin = require('.');
-
 module.exports = {
   plugins: ['standard', 'prettier'],
   extends: ['eslint:recommended', 'standard', 'prettier', 'prettier/standard'],
@@ -12,13 +10,10 @@ module.exports = {
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-depth': ['error', 2],
     // 'max-len': ['error', { code: 100, tabWidth: 2, ignoreComments: true }],
-    'max-lines': ['error', 1000],
     'max-nested-callbacks': ['error', 4],
-    'max-params': ['error', 5],
     'max-statements-per-line': ['error', { max: 2 }],
     'multiline-comment-style': ['error', 'separate-lines'],
     'no-alert': 'error',
-    'no-async-promise-executor': 'error',
     'no-bitwise': 'error',
     'no-case-declarations': 'error',
     'no-catch-shadow': 'error',
@@ -30,7 +25,6 @@ module.exports = {
     'no-implicit-globals': 'error',
     'no-lonely-if': 'error',
     'no-loop-func': 'error',
-    'no-misleading-character-class': 'error',
     'no-mixed-requires': 'error',
     'no-multi-assign': 'error',
     'no-process-exit': 'error',
@@ -48,7 +42,6 @@ module.exports = {
       { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
       { blankLine: 'always', prev: '*', next: 'multiline-block-like' }
     ],
-    'prefer-const': 'error',
     'prefer-object-spread': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
