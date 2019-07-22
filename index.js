@@ -6,7 +6,6 @@ module.exports = {
     'consistent-this': ['error', '_this'],
     'dot-notation': 'error',
     'global-require': 'error',
-    'linebreak-style': ['error', 'unix'],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-depth': ['error', 2],
     // 'max-len': ['error', { code: 100, tabWidth: 2, ignoreComments: true }],
