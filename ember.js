@@ -35,18 +35,6 @@ module.exports = {
     'ember/require-return-from-computed': 'error',
     'ember/route-path-style': 'error',
     'hbs/check-hbs-template-literals': 'error',
-    // 'ember/use-ember-get-and-set': 'error',
-    'no-restricted-imports': ['error', {
-      paths: [{
-        name: '@ember/object/computed',
-        message: 'Please use ember-improved-cp/* instead'
-      }, {
-        name: '@ember/object',
-        importNames: ['computed'],
-        message: 'Please use ember-improved-cp instead'
-      }, {
-        name: 'jquery'
-      }]
-    }]
+    // 'ember/use-ember-get-and-set': 'error'
   }
 };
