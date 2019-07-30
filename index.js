@@ -8,7 +8,7 @@ module.exports = {
     'global-require': 'error',
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-depth': ['error', 2],
-    // 'max-len': ['error', { code: 100, tabWidth: 2, ignoreComments: true }],
+    'max-len': ['error', { code: 120, tabWidth: 2, ignoreComments: true }],
     'max-nested-callbacks': ['error', 4],
     'max-statements-per-line': ['error', { max: 2 }],
     'multiline-comment-style': ['error', 'separate-lines'],
