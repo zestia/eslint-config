@@ -12,30 +12,42 @@ npm install --save @zestia/eslint-config
 
 ## Setup
 
-Create the following file `.eslintrc.js`, chosing the appropritate contents depending on your project:
+1. Create the following file `.eslintrc.js`, chosing the appropritate contents depending on your project:
 
-##### Vanilla JavaScript
+    **Vanilla JavaScript**
 
-```javascript
-module.exports = {
-  extends: '@zestia/eslint-config'
-};
+    ```javascript
+    module.exports = {
+      extends: '@zestia/eslint-config'
+    };
+    ```
+
+    **Ember apps**
+
+    ```javascript
+    module.exports = {
+      extends: '@zestia/eslint-config/ember-app'
+    };
+    ```
+
+    **Ember addons**
+
+    ```javascript
+    module.exports = {
+      extends: '@zestia/eslint-config/ember-addon'
+    };
+    ```
+
+2. Add the following to `scripts` in `package.json`
+
+    ```
+    "lint:js": "eslint ."
+    ```
+
+## Running
+
 ```
-
-##### Ember apps
-
-```javascript
-module.exports = {
-  extends: '@zestia/eslint-config/ember-app'
-};
-```
-
-##### Ember addons
-
-```javascript
-module.exports = {
-  extends: '@zestia/eslint-config/ember-addon'
-};
+npm run lint:js
 ```
 
 ## Notes
