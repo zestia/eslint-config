@@ -42,9 +42,7 @@ module.exports = {
 * `eslint-plugin-hbs` for linting handlebars in tagged templates within javascript files
 * `eslint-plugin-node` primarily for linting ember-cli project files
 
-<hr>
-
-Related repos:
+## Related repos
 
 * https://github.com/zestia/eslint-config
 * https://github.com/zestia/stylelint-config
