@@ -2,7 +2,7 @@
 
 This package provides linting rules for our JavaScript applications.
 
-The rules are based on community standards, with a few extra rule specific to Zestia.
+The rules are based on community standards, with a few extra ones specific to Zestia.
 
 ## Setup
 
