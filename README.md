@@ -4,6 +4,12 @@ This package provides linting rules for our JavaScript applications.
 
 The rules are based on community standards, with a few extra ones specific to Zestia.
 
+## Installation
+
+```
+npm install --save @zestia/eslint-config
+```
+
 ## Setup
 
 Create the following file `.eslintrc.js`, chosing the appropritate contents depending on your project:
