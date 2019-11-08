@@ -1,33 +1,38 @@
 # @zestia/eslint-config
 
-#### General JavaScript
+This package provides linting rules for our JavaScript applications.
+
+The rules are based on community standards, with a few extra rule specific to Zestia.
+
+## Setup
+
+Create the following file `.eslintrc.js`, chosing the appropritate contents depending on your project:
+
+##### Vanilla JavaScript
 
 ```javascript
-// .eslintrc.js
 module.exports = {
   extends: '@zestia/eslint-config'
 };
 ```
 
-#### Ember apps
+##### Ember apps
 
 ```javascript
-// .eslintrc.js
 module.exports = {
   extends: '@zestia/eslint-config/ember-app'
 };
 ```
 
-#### Ember addons
+##### Ember addons
 
 ```javascript
-// .eslintrc.js
 module.exports = {
   extends: '@zestia/eslint-config/ember-addon'
 };
 ```
 
-These configs include:
+## Notes
 
 * `eslint:recommended` for minimal recommended defaults
 * `eslint-config-standard` for a set of community lint rules around best practices and catching errors
