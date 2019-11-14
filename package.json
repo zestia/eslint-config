@@ -4,7 +4,8 @@
   "description": "ESLint configs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,8 @@
   "peerDependencies": {
     "eslint": ">=5.16.0",
     "prettier": ">=1.16.4"
+  },
+  "devDependencies": {
+    "release-it": "^12.4.3"
   }
 }
