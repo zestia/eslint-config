@@ -1,6 +1,6 @@
 {
   "name": "@zestia/eslint-config",
-  "version": "2.0.31",
+  "version": "2.0.32",
   "description": "ESLint configs",
   "main": "index.js",
   "scripts": {
