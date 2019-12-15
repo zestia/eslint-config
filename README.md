@@ -7,7 +7,7 @@ The rules are based on community standards, with a few extra ones specific to Ze
 ## Installation
 
 ```
-npm install --save @zestia/eslint-config
+npm install --save-dev @zestia/eslint-config
 ```
 
 ## Setup
