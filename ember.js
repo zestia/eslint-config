@@ -6,23 +6,27 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['ember', 'hbs'],
-  extends: ['@zestia/eslint-config', 'plugin:ember/recommended'],
+  extends: [
+    // Extend the base config
+    '@zestia/eslint-config',
+    // Extend Ember community recommended ruleset
+    'plugin:ember/recommended'
+  ],
   env: {
     browser: true
   },
   rules: {
-    'ember/no-get': 'error',
-    'ember/no-jquery': 'error',
-    'ember/no-test-and-then': 'error',
-    'ember/no-test-import-export': 'error',
-    'ember/no-unnecessary-index-route': 'error',
+    // Prefer shorthand injection
     'ember/no-unnecessary-service-injection-argument': 'error',
+    // Enforce community based order of methods in components
     'ember/order-in-components': 'error',
+    // Enforce community based order of methods in controllers
     'ember/order-in-controllers': 'error',
+    // Enforce community based order of methods in models
     'ember/order-in-models': 'error',
+    // Enforce community based order of methods in routes
     'ember/order-in-routes': 'error',
-    'ember/route-path-style': 'error',
+    // Lints Handlebars embedded in JS
     'hbs/check-hbs-template-literals': 'error'
-    // 'ember/use-ember-get-and-set': 'error'
   }
 };

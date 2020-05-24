@@ -1,3 +1,5 @@
+/* eslint-disable prefer-object-spread */
+
 module.exports = {
   extends: ['@zestia/eslint-config/ember'],
 

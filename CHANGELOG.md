@@ -3,8 +3,10 @@
 ## 2.0.38
 
 - Upgrade dependencies
-- Add prettier config
 - Eat own dogfood by utilising this eslint config
+- Add comments as to why rules are present
+- Add prettier config
+- Remove deprecated rules
 
 ## 2.0.37
 
