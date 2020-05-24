@@ -2,7 +2,9 @@
 
 ## 2.0.38
 
+- Upgrade dependencies
 - Add prettier config
+- Eat own dogfood by utilising this eslint config
 
 ## 2.0.37
 

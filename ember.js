@@ -5,14 +5,8 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: [
-    'ember',
-    'hbs'
-  ],
-  extends: [
-    '@zestia/eslint-config',
-    'plugin:ember/recommended'
-  ],
+  plugins: ['ember', 'hbs'],
+  extends: ['@zestia/eslint-config', 'plugin:ember/recommended'],
   env: {
     browser: true
   },
@@ -28,7 +22,7 @@ module.exports = {
     'ember/order-in-models': 'error',
     'ember/order-in-routes': 'error',
     'ember/route-path-style': 'error',
-    'hbs/check-hbs-template-literals': 'error',
+    'hbs/check-hbs-template-literals': 'error'
     // 'ember/use-ember-get-and-set': 'error'
   }
 };
