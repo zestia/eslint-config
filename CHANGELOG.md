@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.38
+
+- Add prettier config
+
 ## 2.0.37
 
 - Upgrade dependencies
