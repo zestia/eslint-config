@@ -32,7 +32,7 @@ module.exports = {
     'max-nested-callbacks': ['error', 4],
     // Prevent hard to read code
     'max-statements-per-line': ['error', { max: 2 }],
-    // Enforce a consistant comment styles
+    // Enforce a consistent comment styles
     'multiline-comment-style': ['error', 'separate-lines'],
     // Disallow use of alert dialog boxes
     'no-alert': 'error',
