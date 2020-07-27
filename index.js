@@ -18,14 +18,6 @@ module.exports = {
   rules: {
     // var is block scoped, lets keep it that way
     'block-scoped-var': 'error',
-    // Prefer dot notation over square brackets
-    'dot-notation': 'error',
-    // Leave some whitespace between class methods
-    'lines-between-class-members': [
-      'error',
-      'always',
-      { exceptAfterSingleLine: true }
-    ],
     // Deeply nested ifs are a big smell
     'max-depth': ['error', 2],
     // Deeply nested code should be refactored & flattened out
