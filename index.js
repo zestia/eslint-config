@@ -30,8 +30,6 @@ module.exports = {
     'no-alert': 'error',
     // Disallow bitwise in general, if actually requried you can ignore this rule
     'no-bitwise': 'error',
-    // Simplify use of switch statements
-    'no-case-declarations': 'error',
     // Make sure variable name doesn't clash with argument name
     'no-catch-shadow': 'error',
     // Notify if console statements are left in by accident
@@ -62,14 +60,10 @@ module.exports = {
     'no-useless-concat': 'error',
     // Prefer let or const (block scoped variables) over function scoped
     'no-var': 'error',
-    // Use undefined instead
-    'no-void': 'error',
     // Warn about warning comments. Used to highlight TODO's etc in the codebase
     'no-warning-comments': 'warn',
     // Prefer shorthand objects
     'object-shorthand': ['error', 'always'],
-    // Require multiple variable declarations. Looks nicer / easier to read
-    'one-var': ['error', 'never'],
     // Enforce whitespace between if/block statements (not dealt with by Prettier)
     'padding-line-between-statements': [
       'error',
