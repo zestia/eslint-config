@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.40
+
+- Remove rules that already appear in `eslint-config-standard`
+- Upgrade dependencies
+
 ## 2.0.39
 
 - Upgrade dependencies
