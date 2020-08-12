@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.42
+
+- Upgrade dependencies
+
 ## 2.0.41
 
 - Remove more rules that are already present in `eslint-config-standard`
