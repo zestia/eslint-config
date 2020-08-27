@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.44
+
+- `eslint-plugin-hbs` requires peer dep of `ember-template-lint`
+
 ## 2.0.43
 
 - Uprade dependencies
