@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.43
+
+- Uprade dependencies
+
 ## 2.0.42
 
 - Upgrade dependencies
