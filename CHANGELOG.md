@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.0
+
+- Upgrade dependencies
+- Breaking changes in [`ember-eslint-plugin`](https://github.com/ember-cli/eslint-plugin-ember/blob/master/CHANGELOG.md#v900-2020-09-07)
+
 ## 2.0.44
 
 - `eslint-plugin-hbs` requires peer dep of `ember-template-lint`
