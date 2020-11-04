@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.2
+
+- Sync the eslint config with a fresh ember app and addon
+- Upgrade dependencies
+
 ## 3.0.1
 
 - Upgrade dependencies
