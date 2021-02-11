@@ -26,14 +26,14 @@
   "homepage": "https://github.com/zestia/eslint-config",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-config-standard": "^16.0.0",
-    "eslint-plugin-ember": "^10.0.2",
+    "eslint-plugin-ember": "^10.2.0",
     "eslint-plugin-hbs": "^1.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^5.0.0"
   },
   "peerDependencies": {
@@ -41,8 +41,8 @@
   },
   "devDependencies": {
     "@zestia/prettier-config": "^1.0.4",
-    "eslint": "^7.15.0",
+    "eslint": "^7.19.0",
     "prettier": "^2.2.1",
-    "release-it": "^14.2.2"
+    "release-it": "^14.3.0"
   }
 }
