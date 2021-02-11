@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.5
+
+- Add specific version of `ember-template-lint` peer dependency
+
 ## 3.0.4
 
 - Upgrade dependencies
