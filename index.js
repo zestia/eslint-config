@@ -11,9 +11,7 @@ module.exports = {
     // Extend community Standard ruleset
     'standard',
     // Turn off eslint rules that could conflict with prettier
-    'prettier',
-    // Turn off eslint rules that could conflict with Community Standard rules
-    'prettier/standard'
+    'plugin:prettier/recommended'
   ],
   rules: {
     // var is block scoped, lets keep it that way
