@@ -37,9 +37,6 @@
     "eslint-plugin-qunit": "^6.0.0",
     "eslint-plugin-standard": "^5.0.0"
   },
-  "peerDependencies": {
-    "ember-template-lint": "*"
-  },
   "devDependencies": {
     "@zestia/prettier-config": "^1.0.4",
     "eslint": "^7.22.0",

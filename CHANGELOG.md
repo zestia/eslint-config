@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1
+
+- Remove `ember-template-lint` from peerDependencies again, causing issues
+
 ## 4.0.0
 
 - Add `eslint-plugin-qunit`, as per Ember 3.26
