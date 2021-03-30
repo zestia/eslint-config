@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.0
+
+- Add `eslint-plugin-qunit`, as per Ember 3.26
+- Update configs for Ember apps/addons based on the new blueprints
+
 ## 3.0.6
 
 - Upgrade dependencies
