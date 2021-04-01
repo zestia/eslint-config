@@ -1,6 +1,6 @@
 # @zestia/eslint-config
 
-This package provides linting rules for our JavaScript applications.
+This package provides linting rules for JavaScript.
 
 The rules are based on community standards, with a few extra ones specific to Zestia.
 
