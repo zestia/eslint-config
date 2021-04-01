@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.2
+
+- Add stylelintrc.js
+
 ## 4.0.1
 
 - Remove `ember-template-lint` from peerDependencies again, causing issues
