@@ -12,7 +12,7 @@ npm install --save-dev @zestia/eslint-config
 
 ## Setup
 
-1. Create the following file `.eslintrc.js`, chosing the appropritate ruleset depending on your project:
+1. Create the following file `.eslintrc.js`, choosing the appropriate ruleset depending on your project:
 
    **Vanilla JavaScript**
 
