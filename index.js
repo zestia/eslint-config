@@ -1,7 +1,5 @@
 module.exports = {
   plugins: [
-    // Utilise community Standard ruleset
-    'standard',
     // Runs prettier as an eslint rule
     'prettier'
   ],
