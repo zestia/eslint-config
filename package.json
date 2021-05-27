@@ -34,8 +34,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-qunit": "^6.0.0",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-qunit": "^6.0.0"
   },
   "devDependencies": {
     "@zestia/prettier-config": "^1.0.4",
