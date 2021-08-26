@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.6
+
+- Add `no-return-await`
+
 ## 4.0.5
 
 - Upgrade dependencies

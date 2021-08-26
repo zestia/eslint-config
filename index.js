@@ -48,6 +48,8 @@ module.exports = {
     'no-mixed-requires': 'error',
     // Disallow chained assignment, difficult to read
     'no-multi-assign': 'error',
+    // Disallow return await, probably a misunderstanding
+    'no-return-await': 'error',
     // No need to use javascript:
     'no-script-url': 'error',
     // Prevent unused labels from being left behind
