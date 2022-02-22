@@ -31,15 +31,15 @@
     "release-it": "^14.12.5"
   },
   "peerDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^8.4.0",
+    "babel-eslint": "^10.0.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-config-standard": "^17.0.0-0",
-    "eslint-plugin-ember": "^10.5.9",
-    "eslint-plugin-hbs": "^1.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-ember": "^10.0.0",
+    "eslint-plugin-hbs": "^1.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-qunit": "^7.2.0"
+    "eslint-plugin-qunit": "^7.0.0"
   }
 }
