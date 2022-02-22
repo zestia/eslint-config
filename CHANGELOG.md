@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.9
+
+- Downgrade `eslint-config-standard` (revert 4.0.8)
+- Move deps to peer deps
+
 ## 4.0.8
 
 - Upgrade `eslint-config-standard` for eslint 8 support
