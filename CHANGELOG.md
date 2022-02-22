@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.8
+
+- Upgrade `eslint-config-standard` for eslint 8 support
+
 ## 4.0.7
 
 - Upgrade dependencies

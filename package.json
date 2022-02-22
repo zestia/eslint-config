@@ -27,7 +27,7 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^8.4.0",
-    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard": "^17.0.0-0",
     "eslint-plugin-ember": "^10.5.9",
     "eslint-plugin-hbs": "^1.0.3",
     "eslint-plugin-import": "^2.25.4",
