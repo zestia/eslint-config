@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.10
+
+- Update configs for Ember apps and addons to match latest from `ember new`
+
 ## 4.0.9
 
 - Downgrade `eslint-config-standard` (revert 4.0.8)
