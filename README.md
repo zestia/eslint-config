@@ -17,19 +17,19 @@ npm install --save-dev @zestia/eslint-config
    **Vanilla JavaScript**
 
    ```javascript
-   module.exports = require('@zestia/eslint-config');
+   module.exports = { extends: '@zestia/eslint-config' };
    ```
 
    **Ember apps**
 
    ```javascript
-   module.exports = require('@zestia/eslint-config/ember-app');
+   module.exports = { extends: '@zestia/eslint-config/ember-app' };
    ```
 
    **Ember addons**
 
    ```javascript
-   module.exports = require('@zestia/eslint-config/ember-addon');
+   module.exports = { extends: '@zestia/eslint-config/ember-addon' };
    ```
 
 2. Add the following to `scripts` in `package.json`
