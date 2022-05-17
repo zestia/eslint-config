@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.12
+
+- Flag `stylelint.js` as a node file
+
 ## 4.0.11
 
 - Temporarily remove `eslint-plugin-hbs`

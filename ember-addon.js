@@ -10,6 +10,7 @@ module.exports = {
         './.eslintrc.js',
         './.prettierrc.js',
         './.template-lintrc.js',
+        './stylelintrc.js',
         './ember-cli-build.js',
         './index.js',
         './testem.js',
