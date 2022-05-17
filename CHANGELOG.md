@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.11
+
+- Temporarily remove `eslint-plugin-hbs`
+
 ## 4.0.10
 
 - Update configs for Ember apps and addons to match latest from `ember new`
