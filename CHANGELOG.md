@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.13
+
+- Prefer declarations over expressions, but allow arrow functions
+
 ## 4.0.12
 
 - Flag `stylelint.js` as a node file

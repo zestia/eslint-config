@@ -14,6 +14,8 @@ module.exports = {
   rules: {
     // var is block scoped, lets keep it that way
     'block-scoped-var': 'error',
+    // Prefer declarations over expressions, but allow arrow functions
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     // Deeply nested ifs are a big smell
     'max-depth': ['error', 2],
     // Deeply nested code should be refactored & flattened out
