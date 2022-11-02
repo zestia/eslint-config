@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.0
+
+- Support for eslint 8
+
 ## 4.1.13
 
 - Prefer declarations over expressions, but allow arrow functions
