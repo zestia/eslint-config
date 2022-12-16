@@ -31,14 +31,15 @@
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-config-standard": "^16.0.0",
+    "eslint-plugin-ember-data-sync-relationships": "^1.0.0",
     "eslint-plugin-ember": "^10.0.0",
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.0.0",
-    "eslint-plugin-qunit": "^7.0.0"
+    "eslint-plugin-qunit": "^7.0.0",
+    "eslint": "^7.0.0"
   }
 }

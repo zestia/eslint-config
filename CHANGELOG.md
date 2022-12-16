@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.14
+
+- Enforce synchronous relationships for apps that use Ember Data
+
 ## 4.1.13
 
 - Prefer declarations over expressions, but allow arrow functions

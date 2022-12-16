@@ -54,6 +54,7 @@ npm run lint:js
 - `eslint-plugin-hbs` for linting handlebars in tagged templates within javascript files
 - `eslint-plugin-node` for linting ember-cli project files
 - `eslint-plugin-qunit` for linting tests
+- `eslint-plugin-ember-data-sync-relationships` to enforce synchronous relationships
 
 ## Related repos
 

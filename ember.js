@@ -8,7 +8,7 @@ module.exports = {
       legacyDecorators: true
     }
   },
-  plugins: ['ember' /* , 'hbs' */],
+  plugins: ['ember', 'ember-data-sync-relationships' /* , 'hbs' */],
   extends: [
     // Extend the base config
     '@zestia/eslint-config',
@@ -19,6 +19,8 @@ module.exports = {
     browser: true
   },
   rules: {
+    // Enforce synchronous relationships
+    'ember-data-sync-relationships/no-async-relationships': 'error',
     // Prefer shorthand injection
     'ember/no-unnecessary-service-injection-argument': 'error',
     // Enforce community based order of methods in components
