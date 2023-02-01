@@ -1,9 +1,7 @@
 module.exports = {
   plugins: [
     // Runs prettier as an eslint rule
-    'prettier',
-    // Prefer absolute paths
-    'no-relative-import-paths'
+    'prettier'
   ],
   extends: [
     // Always extend eslint's recommended ruleset
@@ -14,8 +12,6 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   rules: {
-    // Prevent relative paths since they are harder to grok
-    'no-relative-import-paths/no-relative-import-path': 'error',
     // var is block scoped, lets keep it that way
     'block-scoped-var': 'error',
     // Prefer declarations over expressions, but allow arrow functions

@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.16
+
+- Revert 4.1.15
+
 ## 4.1.15
 
 - Prefer absolute paths
