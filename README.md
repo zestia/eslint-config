@@ -55,6 +55,7 @@ npm run lint:js
 - `eslint-plugin-node` for linting ember-cli project files
 - `eslint-plugin-qunit` for linting tests
 - `eslint-plugin-ember-data-sync-relationships` to enforce synchronous relationships
+- `eslint-plugin-no-relative-import-paths` for preferring absolute paths
 
 ## Related repos
 

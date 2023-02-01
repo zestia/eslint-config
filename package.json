@@ -27,15 +27,16 @@
   "devDependencies": {
     "@zestia/prettier-config": "^1.0.8",
     "eslint": "^7.32.0",
-    "release-it": "^14.14.2"
+    "release-it": "^15.6.0"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-config-standard": "^16.0.0",
     "eslint-plugin-ember-data-sync-relationships": "^1.0.0",
-    "eslint-plugin-ember": "^10.0.0",
+    "eslint-plugin-ember": "^11.0.0",
     "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-no-relative-import-paths": "^1.5.2",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.0.0",

@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.15
+
+- Prefer absolute paths
+
 ## 4.1.14
 
 - Enforce synchronous relationships for apps that use Ember Data
