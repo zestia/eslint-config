@@ -15,7 +15,7 @@ module.exports = {
   ],
   rules: {
     // Prevent relative paths since they are harder to grok
-    'eslint-plugin-no-relative-import-paths': 'error',
+    'no-relative-import-paths/no-relative-import-path': 'error',
     // var is block scoped, lets keep it that way
     'block-scoped-var': 'error',
     // Prefer declarations over expressions, but allow arrow functions
