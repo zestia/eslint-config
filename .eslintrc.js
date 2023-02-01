@@ -1,2 +1,7 @@
-// Eat own dogfood
-module.exports = require('./index');
+module.exports = {
+  extends: '@zestia/eslint-config',
+
+  rules: {
+    'no-relative-import-paths/no-relative-import-path': 'off'
+  }
+};
