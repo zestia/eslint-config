@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.17
+
+- Attempt 4.1.15 again (prevent relative paths, but using eslint's `no-restricted-imports`)
+
 ## 4.1.16
 
 - Revert 4.1.15

@@ -12,6 +12,18 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   rules: {
+    // Prevent relative paths since they are hard to ../../../../../grok
+    'no-restricted-imports': [
+      'error',
+      {
+        patterns: [
+          {
+            group: ['^.*'],
+            message: 'Please use absolute paths'
+          }
+        ]
+      }
+    ],
     // var is block scoped, lets keep it that way
     'block-scoped-var': 'error',
     // Prefer declarations over expressions, but allow arrow functions

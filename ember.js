@@ -30,7 +30,7 @@ module.exports = {
     // Enforce community based order of methods in models
     'ember/order-in-models': 'error',
     // Enforce community based order of methods in routes
-    'ember/order-in-routes': 'error'
+    'ember/order-in-routes': 'error',
     // Lints Handlebars embedded in JS
     // (Disabled due to resolution issue)
     // 'hbs/check-hbs-template-literals': 'error'
