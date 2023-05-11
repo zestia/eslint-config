@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.19
+
+- Upgrade dependencies
+
 ## 4.1.18
 
 - Correct regex to match relative files
