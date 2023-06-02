@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.0
+
+- Upgrade to eslint 8
+
 ## 4.1.19
 
 - Upgrade dependencies
