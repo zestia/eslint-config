@@ -1,5 +1,3 @@
-/* eslint-disable prefer-object-spread */
-
 module.exports = {
   extends: ['@zestia/eslint-config/ember'],
 
@@ -9,8 +7,8 @@ module.exports = {
       files: [
         './.eslintrc.js',
         './.prettierrc.js',
+        './.stylelintrc.js',
         './.template-lintrc.js',
-        './stylelintrc.js',
         './ember-cli-build.js',
         './index.js',
         './testem.js',
@@ -25,8 +23,7 @@ module.exports = {
         browser: false,
         node: true
       },
-      plugins: ['node'],
-      extends: ['plugin:node/recommended']
+      extends: ['plugin:n/recommended']
     },
     {
       // test files

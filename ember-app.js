@@ -1,5 +1,3 @@
-/* eslint-disable prefer-object-spread */
-
 module.exports = {
   extends: ['@zestia/eslint-config/ember'],
 
@@ -9,9 +7,9 @@ module.exports = {
       files: [
         './.eslintrc.js',
         './.prettierrc.js',
+        './.stylelintrc.js',
         './.template-lintrc.js',
         './ember-cli-build.js',
-        './stylelintrc.js',
         './testem.js',
         './blueprints/*/index.js',
         './config/**/*.js',
@@ -25,13 +23,7 @@ module.exports = {
         browser: false,
         node: true
       },
-      plugins: ['node'],
-      extends: ['plugin:node/recommended'],
-      rules: {
-        // this can be removed once the following is fixed
-        // https://github.com/mysticatea/eslint-plugin-node/issues/77
-        'node/no-unpublished-require': 'off'
-      }
+      extends: ['plugin:n/recommended']
     },
     {
       // test files
