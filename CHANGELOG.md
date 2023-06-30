@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.1
+
+- Require that `assert.expect` is always used
+
 ## 5.1.0
 
 - Upgrade dependencies to match a fresh ember-cli app

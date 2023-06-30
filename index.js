@@ -99,6 +99,9 @@ module.exports = {
     // Enforce use of second parameter with parseInt/Float etc
     radix: 'error',
     // Enforce use of strict directive
-    strict: 'error'
+    strict: 'error',
+    // Require that expect is always used
+    // https://github.com/platinumazure/eslint-plugin-qunit/issues/382#issuecomment-1614400526
+    'qunit/require-expect': ['error', 'always']
   }
 };
