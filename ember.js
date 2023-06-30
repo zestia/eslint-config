@@ -22,6 +22,9 @@ module.exports = {
     browser: true
   },
   rules: {
+    // Require that expect is always used
+    // https://github.com/platinumazure/eslint-plugin-qunit/issues/382#issuecomment-1614400526
+    'qunit/require-expect': ['error', 'always'],
     // Enforce synchronous relationships
     'ember-data-sync-relationships/no-async-relationships': 'error',
     // Prefer shorthand injection
