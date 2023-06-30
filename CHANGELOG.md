@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0
+
+- Upgrade dependencies to match a fresh ember-cli app
+
 ## 5.0.0
 
 - Upgrade to eslint 8
