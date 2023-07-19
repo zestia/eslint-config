@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.2
+
+- Re-release of 5.1.1 for testing publishing to GH instead of NPM
+
 ## 5.1.1
 
 - Require that `assert.expect` is always used
