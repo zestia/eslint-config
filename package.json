@@ -29,7 +29,7 @@
   "homepage": "https://github.com/zestia/eslint-config",
   "devDependencies": {
     "@zestia/eslint-config": "./",
-    "@zestia/prettier-config": "^1.0.11",
+    "@zestia/prettier-config": "^1.2.1",
     "eslint": "^8.41.0",
     "release-it": "^15.10.5"
   },
@@ -42,7 +42,7 @@
     "eslint-plugin-ember": "^11.0.0",
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-qunit": "^8.0.0",
     "eslint": "^8.0.0"

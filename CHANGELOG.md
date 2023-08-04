@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.4
+
+- Update `eslint-plugin-prettier` to support prettier v3
+
 ## 5.1.3
 
 - Update `@zestia` scoped packages
