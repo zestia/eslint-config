@@ -9,7 +9,7 @@ module.exports = {
     // Extend community Standard ruleset
     'standard',
     // Turn off eslint rules that could conflict with prettier
-    'plugin:prettier/recommended'
+    'prettier'
   ],
   rules: {
     // Prevent relative paths since they are hard to ../../../../../grok

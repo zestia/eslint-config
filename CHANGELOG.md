@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.0
+
+- Disconnect prettier from eslint config
+
 ## 5.1.5
 
 - Update `eslint-config-prettier`
