@@ -1,8 +1,4 @@
 module.exports = {
-  plugins: [
-    // Runs prettier as an eslint rule
-    'prettier'
-  ],
   extends: [
     // Always extend eslint's recommended ruleset
     'eslint:recommended',
