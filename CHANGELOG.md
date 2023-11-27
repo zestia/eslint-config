@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.5
+
+- Update `eslint-config-prettier`
+
 ## 5.1.4
 
 - Update `eslint-plugin-prettier` to support prettier v3
