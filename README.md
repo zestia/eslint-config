@@ -55,8 +55,7 @@ npm run lint:js
 
 - `eslint:recommended` for minimal recommended defaults
 - `eslint-config-standard` for a set of community lint rules around best practices and catching errors
-- `eslint-plugin-prettier` adds prettier as an eslint rule
-- `eslint-config-prettier` for turning off eslint rules that could conflict with prettier
+- `eslint-config-prettier` for turning off eslint rules that conflict with prettier
 - `eslint-plugin-ember` for ember-specific recommended lint rules
 - `eslint-plugin-hbs` for linting handlebars in tagged templates within javascript files
 - `eslint-plugin-n` for linting ember-cli project files (node)
