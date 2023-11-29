@@ -1,5 +1,9 @@
 # Changelog
 
+## 5 3.0
+
+- Set min version of eslint-plugin-ember to support gjs
+
 ## 5.2.0
 
 - Disconnect prettier from eslint config
