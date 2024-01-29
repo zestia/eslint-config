@@ -31,7 +31,7 @@
     "@zestia/eslint-config": "./",
     "@zestia/prettier-config": "^1.3.1",
     "eslint": "^8.41.0",
-    "release-it": "^15.10.5"
+    "release-it": "^17.0.3"
   },
   "peerDependencies": {
     "@babel/eslint-parser": "^7.0.0",
@@ -39,7 +39,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-ember-data-sync-relationships": "^1.0.0",
-    "eslint-plugin-ember": "^11.6.0",
+    "eslint-plugin-ember": "^12.0.0",
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-promise": "^6.0.0",

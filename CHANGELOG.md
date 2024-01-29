@@ -1,6 +1,10 @@
 # Changelog
 
-## 5 3.0
+## 5.4.0
+
+- Update `eslint-plugin-ember`
+
+## 5.3.0
 
 - Set min version of eslint-plugin-ember to support gjs
 
