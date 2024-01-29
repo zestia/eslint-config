@@ -24,15 +24,6 @@ module.exports = {
         node: true
       },
       extends: ['plugin:n/recommended']
-    },
-    {
-      // test files
-      files: ['tests/**/*-test.{js,ts}'],
-      extends: ['plugin:qunit/recommended']
-    },
-    {
-      files: ['**/*.gjs'],
-      parser: 'ember-eslint-parser'
     }
   ]
 };

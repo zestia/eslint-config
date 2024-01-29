@@ -16,7 +16,8 @@ module.exports = {
     // Extend the base config
     '@zestia/eslint-config',
     // Extend Ember community recommended ruleset
-    'plugin:ember/recommended'
+    'plugin:ember/recommended',
+    'plugin:ember/recommended-gjs'
   ],
   env: {
     browser: true
@@ -40,5 +41,18 @@ module.exports = {
     // Lints Handlebars embedded in JS
     // (Disabled due to resolution issue)
     // 'hbs/check-hbs-template-literals': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: ['**/*.gjs'],
+      parser: 'ember-eslint-parser'
+    },
+    {
+      files: ['tests/**/*.{js,ts,gjs,gts}'],
+      rules: {
+        // override / enable optional rules
+        'ember/no-replace-test-comments': 'error'
+      }
+    }
+  ]
 };
