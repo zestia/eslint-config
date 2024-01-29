@@ -33,8 +33,7 @@ module.exports = {
     {
       files: ['**/*.js'],
       plugins: ['ember'],
-      extends: ['@zestia/eslint-config', 'plugin:ember/recommended'],
-      rules: {}
+      extends: ['@zestia/eslint-config', 'plugin:ember/recommended']
     },
     {
       files: ['**/*.gjs'],
@@ -45,13 +44,6 @@ module.exports = {
         'plugin:ember/recommended',
         'plugin:ember/recommended-gjs'
       ]
-    },
-    {
-      files: ['tests/**/*.{js,ts,gjs,gts}'],
-      rules: {
-        // override / enable optional rules
-        'ember/no-replace-test-comments': 'error'
-      }
     }
   ]
 };
