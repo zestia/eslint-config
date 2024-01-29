@@ -40,7 +40,16 @@ module.exports = {
     {
       files: ['**/*.gjs'],
       parser: 'ember-eslint-parser',
-      extends: ['plugin:ember/recommended-gjs']
+      extends: ['plugin:ember/recommended-gjs'],
+      rules: {
+        // https://github.com/NullVoxPopuli/ember-eslint-parser/issues/39
+        'no-use-before-define': 'off'
+      }
+    },
+    {
+      // test files
+      files: ['tests/**/*-test.js'],
+      extends: ['plugin:qunit/recommended']
     }
   ]
 };
