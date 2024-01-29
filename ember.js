@@ -11,14 +11,6 @@ module.exports = {
       ]
     }
   },
-  plugins: ['ember', 'ember-data-sync-relationships' /* , 'hbs' */],
-  extends: [
-    // Extend the base config
-    '@zestia/eslint-config',
-    // Extend Ember community recommended ruleset
-    'plugin:ember/recommended',
-    'plugin:ember/recommended-gjs'
-  ],
   env: {
     browser: true
   },
@@ -26,8 +18,6 @@ module.exports = {
     // Require that expect is always used
     // https://github.com/platinumazure/eslint-plugin-qunit/issues/382#issuecomment-1614400526
     'qunit/require-expect': ['error', 'always'],
-    // Enforce synchronous relationships
-    'ember-data-sync-relationships/no-async-relationships': 'error',
     // Prefer shorthand injection
     'ember/no-unnecessary-service-injection-argument': 'error',
     // Enforce community based order of methods in components
@@ -38,14 +28,23 @@ module.exports = {
     'ember/order-in-models': 'error',
     // Enforce community based order of methods in routes
     'ember/order-in-routes': 'error'
-    // Lints Handlebars embedded in JS
-    // (Disabled due to resolution issue)
-    // 'hbs/check-hbs-template-literals': 'error'
   },
   overrides: [
     {
+      files: ['**/*.js'],
+      plugins: ['ember'],
+      extends: ['@zestia/eslint-config', 'plugin:ember/recommended'],
+      rules: {}
+    },
+    {
       files: ['**/*.gjs'],
-      parser: 'ember-eslint-parser'
+      parser: 'ember-eslint-parser',
+      plugins: ['ember'],
+      extends: [
+        '@zestia/eslint-config',
+        'plugin:ember/recommended',
+        'plugin:ember/recommended-gjs'
+      ]
     },
     {
       files: ['tests/**/*.{js,ts,gjs,gts}'],

@@ -57,11 +57,10 @@ npm run lint:js
 - `eslint-config-standard` for a set of community lint rules around best practices and catching errors
 - `eslint-config-prettier` for turning off eslint rules that conflict with prettier
 - `eslint-plugin-ember` for ember-specific recommended lint rules
-- `eslint-plugin-hbs` for linting handlebars in tagged templates within javascript files
 - `eslint-plugin-n` for linting ember-cli project files (node)
 - `eslint-plugin-qunit` for linting tests
-- `eslint-plugin-ember-data-sync-relationships` to enforce synchronous relationships
 - `eslint-plugin-no-relative-import-paths` for preferring absolute paths
+- `ember-eslint-parser` for linting gjs files
 
 ## Related repos
 
