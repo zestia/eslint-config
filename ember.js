@@ -43,7 +43,9 @@ module.exports = {
       extends: ['plugin:ember/recommended-gjs'],
       rules: {
         // https://github.com/NullVoxPopuli/ember-eslint-parser/issues/39
-        'no-use-before-define': 'off'
+        'no-use-before-define': 'off',
+        // https://github.com/ember-cli/eslint-plugin-ember/issues/2078
+        'ember/template-no-let-reference': 'off'
       }
     },
     {
