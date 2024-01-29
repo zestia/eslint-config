@@ -36,6 +36,7 @@
   "peerDependencies": {
     "@babel/eslint-parser": "^7.0.0",
     "@babel/plugin-proposal-decorators": "^7.0.0",
+    "ember-eslint-parser": "^0.2.5",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-ember-data-sync-relationships": "^1.0.0",
