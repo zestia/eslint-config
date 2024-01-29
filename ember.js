@@ -11,6 +11,13 @@ module.exports = {
       ]
     }
   },
+  plugins: ['ember'],
+  extends: [
+    // Extend the base config
+    '@zestia/eslint-config',
+    // Extend Ember community recommended ruleset
+    'plugin:ember/recommended'
+  ],
   env: {
     browser: true
   },
@@ -31,19 +38,9 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.js'],
-      plugins: ['ember'],
-      extends: ['@zestia/eslint-config', 'plugin:ember/recommended']
-    },
-    {
       files: ['**/*.gjs'],
       parser: 'ember-eslint-parser',
-      plugins: ['ember'],
-      extends: [
-        '@zestia/eslint-config',
-        'plugin:ember/recommended',
-        'plugin:ember/recommended-gjs'
-      ]
+      extends: ['plugin:ember/recommended-gjs']
     }
   ]
 };
