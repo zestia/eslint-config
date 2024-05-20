@@ -44,6 +44,6 @@
     "eslint-plugin-n": "^17.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-qunit": "^8.0.0",
-    "eslint": "^9.0.0"
+    "eslint": "^8.0.0"
   }
 }
