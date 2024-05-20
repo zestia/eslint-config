@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.0
+
+- Update dependencies
+
 ## 5.4.0
 
 - Update `eslint-plugin-ember`
