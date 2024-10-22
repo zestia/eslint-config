@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.0
+
+- Disconnect Ember from ESLint config
+
 ## 6.0.0
 
 - Update dependencies
