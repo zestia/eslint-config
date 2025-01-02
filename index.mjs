@@ -2,6 +2,8 @@ import js from '@eslint/js';
 import standard from 'eslint-config-standard';
 import prettier from 'eslint-config-prettier';
 
+console.log(js.configs.recommended);
+
 export default [
   // Always extend eslint's recommended ruleset
   js.configs.recommended,
@@ -99,7 +101,25 @@ export default [
       // Enforce use of second parameter with parseInt/Float etc
       radix: 'error',
       // Enforce use of strict directive
-      strict: 'error'
+      strict: 'error',
+      // Constructor calls must include super
+      'constructor-super': 'error',
+      // Prevent infinite loops
+      'for-direction': 'error',
+      // Getter must return a value
+      'getter-return': 'error',
+      // Prevent misuse of async functions
+      'no-async-promise-executor': 'error',
+      // Disallow redeclaring variables
+      'no-redeclare': ['error', { builtinGlobals: false }],
+      // Disallow variable shadowing in catch blocks
+      'no-catch-shadow': 'error',
+      // Enforce accurate equality checks
+      'no-eq-null': 'error',
+      // Prevent unnecessary use of await in return statements
+      'no-return-await': 'error',
+      // Prevent excessive code depth
+      'max-depth': ['error', 2]
     }
   }
 ];
