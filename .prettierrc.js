@@ -1,1 +1,1 @@
-module.exports = require('@zestia/prettier-config');
+export * from '@zestia/prettier-config';
