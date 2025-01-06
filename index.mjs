@@ -72,8 +72,6 @@ export default {
     radix: 'error',
     // Enforce use of strict directive
     strict: ['error', 'global'],
-    // Prevent excessive code depth
-    'max-depth': ['error', 2],
     // Enforces that setter methods have a corresponding getter
     'accessor-pairs': [
       'error',
