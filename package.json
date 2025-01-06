@@ -2,7 +2,7 @@
   "type": "module",
   "main": "index.mjs",
   "name": "@zestia/eslint-config",
-  "version": "7.0.0-1",
+  "version": "7.0.0-2",
   "description": "ESLint configs",
   "scripts": {
     "test": "npm run lint",
@@ -35,8 +35,6 @@
   },
   "peerDependencies": {
     "eslint": "^9.0.0",
-    "@eslint/js": "^9.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard": "^17.1.0"
+    "@eslint/js": "^9.0.0"
   }
 }
