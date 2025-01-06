@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.2
+
+- Upgrade deps
+
 ## 7.0.1
 
 - Fix prettier

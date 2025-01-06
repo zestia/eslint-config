@@ -20,8 +20,8 @@ Add the following to `~/.npmrc` to pull @zestia scoped packages from Github inst
 1. Create the following file `eslint.config.mjs`
 
    ```javascript
-   import js from "@eslint/js";
-   import zestia from "@zestia/eslint-config";
+   import js from '@eslint/js';
+   import zestia from '@zestia/eslint-config';
 
    export default [js.configs.recommended, zestia];
    ```
