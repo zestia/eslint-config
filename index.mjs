@@ -1,5 +1,6 @@
-// This file assumes you are already extending
-// from js.configs.recommended
+// Please note:
+// - This file assumes you are already extending from js.configs.recommended
+// - Do not include any stylistic rules, prettier handles that.
 
 export default {
   rules: {
