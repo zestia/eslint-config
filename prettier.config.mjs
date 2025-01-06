@@ -1,3 +1,3 @@
-import zestia from "@zestia/prettier-config";
+import zestia from '@zestia/prettier-config';
 
 export default zestia;
