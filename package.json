@@ -2,7 +2,7 @@
   "type": "module",
   "main": "index.mjs",
   "name": "@zestia/eslint-config",
-  "version": "7.0.0-2",
+  "version": "7.0.0-3",
   "description": "ESLint configs",
   "scripts": {
     "test": "npm run lint",
