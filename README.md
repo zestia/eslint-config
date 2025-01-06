@@ -1,8 +1,6 @@
 # @zestia/eslint-config
 
-This package provides linting rules for JavaScript.
-
-The rules are based on community standards, with a few extra ones specific to Zestia.
+This package provides linting rules for JavaScript projects.
 
 ## Installation
 
@@ -19,24 +17,13 @@ Add the following to `~/.npmrc` to pull @zestia scoped packages from Github inst
 
 ## Setup
 
-1. Create the following file `.eslintrc.js`, choosing the appropriate ruleset depending on your project:
-
-   **Vanilla JavaScript**
+1. Create the following file `eslint.config.mjs`
 
    ```javascript
-   module.exports = { extends: '@zestia/eslint-config' };
-   ```
+   import js from "@eslint/js";
+   import zestia from "@zestia/eslint-config";
 
-   **Ember apps**
-
-   ```javascript
-   module.exports = { extends: '@zestia/eslint-config/ember-app' };
-   ```
-
-   **Ember addons**
-
-   ```javascript
-   module.exports = { extends: '@zestia/eslint-config/ember-addon' };
+   export default [js.configs.recommended, zestia];
    ```
 
 2. Add the following to `scripts` in `package.json`
@@ -50,17 +37,6 @@ Add the following to `~/.npmrc` to pull @zestia scoped packages from Github inst
 ```
 npm run lint:js
 ```
-
-## Notes
-
-- `eslint:recommended` for minimal recommended defaults
-- `eslint-config-standard` for a set of community lint rules around best practices and catching errors
-- `eslint-config-prettier` for turning off eslint rules that conflict with prettier
-- `eslint-plugin-ember` for ember-specific recommended lint rules
-- `eslint-plugin-n` for linting ember-cli project files (node)
-- `eslint-plugin-qunit` for linting tests
-- `eslint-plugin-no-relative-import-paths` for preferring absolute paths
-- `ember-eslint-parser` for linting gjs files
 
 ## Related repos
 
