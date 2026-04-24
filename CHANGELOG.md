@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.3
+
+- Allow relative paths
+
 ## 7.0.2
 
 - Upgrade deps

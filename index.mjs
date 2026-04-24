@@ -1,21 +1,9 @@
 // Please note:
 // - This file assumes you are already extending from js.configs.recommended
-// - Do not include any stylistic rules, prettier handles that.
+// - Do not include any stylistic rules, @zestia/prettier-config handles that.
 
 export default {
   rules: {
-    // Prevent relative paths since they are hard to ../../../../../grok
-    'no-restricted-imports': [
-      'error',
-      {
-        patterns: [
-          {
-            group: ['.*'],
-            message: 'Please use absolute paths'
-          }
-        ]
-      }
-    ],
     // var is block scoped, lets keep it that way
     'block-scoped-var': 'error',
     // Prefer declarations over expressions, but allow arrow functions
