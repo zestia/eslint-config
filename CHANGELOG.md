@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.0.0
+
+- Support eslint 10
+
 ## 7.0.3
 
 - Allow relative paths
